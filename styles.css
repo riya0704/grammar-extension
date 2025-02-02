@@ -1,0 +1,20 @@
+.grammar-tooltip {
+    position: absolute;
+    background-color: #ffeb3b;
+    color: #000;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
